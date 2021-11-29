@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\sertao\\SertaoArch2.0\\Template.Business\\GimmeBooks.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\sertao\\SertaoArch2.0\\Template.Business\\GimmeBooks.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sertao\\SertaoArch2.0\\Template.Business\\GimmeBooks.Business.csproj",
+        "projectName": "GimmeBooks.Business",
+        "projectPath": "C:\\sertao\\SertaoArch2.0\\Template.Business\\GimmeBooks.Business.csproj",
+        "packagesPath": "C:\\Users\\saulo\\.nuget\\packages\\",
+        "outputPath": "C:\\sertao\\SertaoArch2.0\\Template.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\saulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\sertao\\SertaoArch2.0\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj": {
+                "projectPath": "C:\\sertao\\SertaoArch2.0\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj"
+              },
+              "C:\\sertao\\SertaoArch2.0\\$ext_projectname$.Common\\$ext_projectname$.Common.csproj": {
+                "projectPath": "C:\\sertao\\SertaoArch2.0\\$ext_projectname$.Common\\$ext_projectname$.Common.csproj"
+              },
+              "C:\\sertao\\SertaoArch2.0\\$ext_projectname$.DI\\$ext_projectname$.DI.csproj": {
+                "projectPath": "C:\\sertao\\SertaoArch2.0\\$ext_projectname$.DI\\$ext_projectname$.DI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
